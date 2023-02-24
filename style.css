@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@300;400;500;600&family=Kumbh+Sans:wght@400;600&family=Open+Sans:wght@400;500;600;700&family=Overpass:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500&family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&family=Space+Grotesk:wght@500&family=Space+Mono&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@300;400;500;600&family=Kumbh+Sans:wght@400;600&family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@300;400;500;600&family=Overpass:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500&family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&family=Space+Grotesk:wght@500&family=Space+Mono&family=Sriracha&display=swap');
+
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-seri;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: bisque;
+}
+ /*start navbar  */
+.navbar{
+    background-color: brown !important;
+}
+.navbar .navbar-brand{
+    color: bisque;
+    padding: 0 15px;
+}
+.navbar button span i{
+    font-size: 30px;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    color: bisque;
+    text-decoration: none;
+    margin-left: 15px;
+}
+/* collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link  */
+ /*end navbar  */
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidnav{
+    background-color: brown;
+    width: 250px;
+    height: 100vh;
+    color:bisque;
+    position: fixed;
+}
+.sidnav .image{
+    width: 200px;
+    margin:40px auto 10px auto;
+    border: 3px solid bisque;
+    border-radius: 50%;
+}
+.items li{
+margin: 13px 8px 13px -10px;
+padding: 8px ;
+text-align: center;
+}
+.items li:hover{
+    background-color:#660000 ;
+    border-radius: 10px;
+}
+.items li a{
+    text-decoration: none;
+    color: bisque;
+}
+
+/* start content info */
+.content-info{
+    background-color:bisque;
+    width: calc(100% - 250px);
+    color: #000;
+    padding: 0 30px;
+    margin: 0;
+    margin-left: 250px;
+    height: 100vh;
+}
+@media (max-width : 768px){
+    .content-info{
+        margin-left: -15px;
+        width: 768px;
+    }
+}
+@media (max-width : 576px){
+    .content-info{
+        margin-left: -15px;
+        width: 576px;
+    }
+}
+.content-info hr{
+    color: #333;
+    margin-top: 100px;
+}
+/* end content info */
+/* start about */
+.about{
+    margin-left: 35px;
+}
+.about h1{
+    margin-top: 80px;
+    color: #333;
+    font-size: 80px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+    
+}
+@media (max-width : 576px){
+    .about h1{
+        font-size: 50px;
+    }
+    .about h1 span{
+        font-size: 50px !important;
+    }
+}
+.about h1 span{
+    margin-top: 80px;
+    font-size: 80px;
+    font-weight: bold;
+    color: brown;
+    font-family:'Oswald', sans-serif ;
+    
+}
+.about p{
+    line-height: 1px;
+    color: #444;
+    font-family:'Oswald', sans-serif ;
+}
+.about p a{
+    color: brown ;
+}
+@media (max-width : 576px){
+    .about p a{
+        line-height: 2.8;
+    }
+}
+.about .about-info{
+    color: #777;
+    line-height: normal;
+    font-family: 'Roboto', sans-seri;
+    margin: 50px 0;
+    font-size: 20px;
+}
+.about .about-social{
+    margin: 100px 0 50px -26px;
+}
+.about-social ul{
+    display: flex;
+    align-items: center;
+    
+}
+.about-social ul li{
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+}
+.about-social ul li:hover{
+    background-color: brown;
+    color: bisque;
+
+}
+/* end about */
+/* start experience*/
+.experience h1{
+    margin-top: 80px;
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+    
+}
+.experience h2{
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.experience h5{
+    color: #777;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.experience span{
+    color: brown;
+    text-align: start;
+}
+.experience p{
+    color: #777;
+}
+
+/* end experience*/
+/* start education */
+.education h1{
+    margin-top: 80px;
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.education h2{
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.education h5{
+    color: #777;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.education span{
+    color: brown;
+    text-align: start;
+}
+.education p{
+    color: #777;
+    
+}
+/* end education */
+/* start skills */
+.skills h1{
+    margin-top: 80px;
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.skills h5{
+    color: #777;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.skill-icons ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.skill-icons ul li {
+    margin-right: 20px;
+    font-size: 40px;
+    color: #333;
+}
+@media (max-width :768px){
+    .skill-icons ul li{
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
+}
+.skill-work-flow ul li{
+    color: #333;
+    padding: 10px 0;
+    list-style: circle;
+}
+/* end skills */
+/* start interests */
+.interests h1{
+    margin-top: 80px;
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.interests p{
+    color: #777;
+}
+/* end  interests*/
+/* end  awards*/
+.awards{
+    height: 380px;
+}
+.awards h1{
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+}
+.awards ul{
+    margin-bottom: 50px !important;
+}
+.awards ul li{
+    color: #333;
+    /* padding-top: 10px; */
+    list-style:disc;
+}
+/* end  awards*/
+
